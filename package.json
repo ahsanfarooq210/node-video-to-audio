@@ -1,0 +1,19 @@
+{
+  "name": "video-to-audio",
+  "version": "1.0.0",
+  "description": "A backend api to extract audio from video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^3.0.1"
+  }
+}
